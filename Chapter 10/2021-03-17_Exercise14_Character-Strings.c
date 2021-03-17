@@ -29,7 +29,7 @@ void intToStr (int integer)
     if (integer < 0)
     {
         gArray[i] = '-';
-        i++
+        i++;
     }
     if (quotient == 0)
     {
