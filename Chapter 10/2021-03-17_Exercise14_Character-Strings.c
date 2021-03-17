@@ -26,6 +26,11 @@ void intToStr (int integer)
 
     int quotient = integer / 10, modulo = integer % 10;
 
+    if (integer < 0)
+    {
+        gArray[i] = '-';
+        i++
+    }
     if (quotient == 0)
     {
       gArray[i] = integer + '0';
